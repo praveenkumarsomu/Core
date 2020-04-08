@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Core/Pods-Core-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Base_Core/Base_Core.framework
+${BUILT_PRODUCTS_DIR}/ModuleA/ModuleA.framework
+${BUILT_PRODUCTS_DIR}/ModuleB/ModuleB.framework
+${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework

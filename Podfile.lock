@@ -1,0 +1,33 @@
+PODS:
+  - Base_Core (0.1.0):
+    - Swinject
+  - ModuleA (0.1.0):
+    - Base_Core
+  - ModuleB (0.1.0):
+    - Base_Core
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - ModuleA (from `../ModuleA`)
+  - ModuleB (from `../ModuleB`)
+
+SPEC REPOS:
+  trunk:
+    - Base_Core
+    - Swinject
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../ModuleA"
+  ModuleB:
+    :path: "../ModuleB"
+
+SPEC CHECKSUMS:
+  Base_Core: 649bb10022e3bb4c577d19c8568aa17afbf9e372
+  ModuleA: 473fdd614ae3b9ee025808d26aa26f7f15fb0d0f
+  ModuleB: acf607fdb2558f384ddd294724384aee6838d67d
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: 6ff0878c7c93c9abb10f1e78608a75c1ed0bf84f
+
+COCOAPODS: 1.8.4
